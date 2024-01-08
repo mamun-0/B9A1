@@ -161,3 +161,49 @@
   background: #f00;
   color: #fff;
 }
+/* Section-5 */
+.section-5-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-5-container > div {
+  width: 33.33%;
+}
+.ellipse1-img {
+  height: 100%;
+  width: 100%;
+}
+.section-5-container h3 {
+  font-family: "Inter", sans-serif;
+  color: red;
+  font-weight: 400;
+  font-size: 24px;
+}
+.section-5-container h3 + h2 {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-size: 48px;
+}
+.section-5-para {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.imagecircle {
+  border-radius: 50%;
+  border: 8px solid #f00;
+  padding: 20px;
+  margin: 0 20px;
+}
+.section-5-year{
+  color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+}
+.group96{
+  margin-top: 25px;
+}
