@@ -273,7 +273,7 @@
 }
 .discount {
   position: absolute;
-  top: 18%;
+  top: 25%;
   left: -24%;
   height: 50%;
   width: 50%;
@@ -333,6 +333,7 @@ input[type="text"] {
   background: #fff;
   padding: 15px;
   border: none;
+  font-size: 150%;
 }
 button[type="submit"] {
   width: 210px;
@@ -347,4 +348,45 @@ button[type="submit"] {
   padding: 15px;
   border: none;
   color: white;
+}
+/* Footer */
+footer {
+  height: 50vh;
+  background-color: #070211;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.icon-group-1 li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-group-1 p{
+ padding:5px ;
+}
+.f-first-container {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.f-first-container p {
+  font-family: Inter;
+  font-size: 15px;
+}
+.f-second-container ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.f-second-container ul li {
+  margin-left: 10px;
+}
+.f-third-container {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.icon-group-1 ul {
+  list-style: none;
 }
