@@ -304,3 +304,47 @@
 .gallery .img-container:hover {
   scale: 0.98;
 }
+/* Section-8 */
+.section-8-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  height: 616px;
+}
+.section-8-container h2 {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-size: 48px;
+  margin: 20px 0;
+}
+.subscribe-form {
+  display: inline-block;
+  position: relative;
+  margin: 20px;
+}
+input[type="text"] {
+  width: 648px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #fff;
+  padding: 15px;
+  border: none;
+}
+button[type="submit"] {
+  width: 210px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  z-index: 10;
+  padding: 15px;
+  border: none;
+  color: white;
+}
